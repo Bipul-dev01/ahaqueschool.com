@@ -114,6 +114,9 @@ section{
     .home .content h3{
       font-size: 4rem;
     }
+    .home .image{
+      padding-bottom: 40px;
+    }
   }
   
 /* ********************************************************
@@ -283,7 +286,7 @@ text-shadow: 1px 1px #000;
 }
 @media screen and (max-width: 480px){
   .headingText h1{
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 20px;
@@ -430,7 +433,7 @@ text-shadow: 1px 1px #000;
 }
 @media(max-width:460px){
   .listFeature{
-    min-height: 122vh;
+    min-height: 95vh;
   }
   .listFeature h1{
     font-size: 30px;
@@ -637,7 +640,8 @@ text-shadow: 1px 1px #000;
     background-size: 90%;
   }
   .playground h1{
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 800;
     text-shadow: 2px 1px #fff; 
   }
 }
