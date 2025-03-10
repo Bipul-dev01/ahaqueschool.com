@@ -185,11 +185,11 @@ section{
   margin-bottom: 10px;
 }
 .headingText h2{
-font-size: 20px;
-font-weight: 400;
-color: rgb(20, 19, 20);
-text-align: center;
-text-shadow: 1px 1px #000;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(20, 19, 20);
+  text-align: center;
+  text-shadow: 1px 1px #000;
 }
 .portfolioImageSlider{
   min-height: 100vh;
@@ -330,7 +330,7 @@ text-shadow: 1px 1px #000;
   perspective: 100px;
 }
 .slide img{
-  width: 350px;
+  width: 370px;
   height: 260px;
   padding-bottom: 6px;
 }
@@ -346,15 +346,26 @@ text-shadow: 1px 1px #000;
 /* **********************************************************
     Home Features section CSS Start
 ********************************************************** */
-.listFeature{
+/* .listFeature{
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   min-height: 120vh;
-  background: url(images/galleryPage/ahs5.jpg) no-repeat center center/cover; /* Background image */
+  background: url(images/galleryPage/ahs5.jpg) no-repeat center center/cover; 
   background-attachment: fixed;
+} */
+.listFeature {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 120vh;
+  background: url(images/galleryPage/ahs5.jpg) no-repeat center center/cover;
+  background-attachment: fixed; /* Keep it for larger screens */
+  background-position: center fixed; /* Ensures proper positioning */
 }
 .listFeature h1{
   font-size: 45px;
@@ -433,7 +444,9 @@ text-shadow: 1px 1px #000;
 }
 @media(max-width:460px){
   .listFeature{
-    min-height: 95vh;
+      min-height: 95vh;
+      background-attachment: scroll; /* Prevents vibration issue */
+      background-position: center center; /* Keeps it centered */
   }
   .listFeature h1{
     font-size: 30px;
