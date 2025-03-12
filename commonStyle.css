@@ -336,7 +336,8 @@ html{
         height: 100%; /* Full height */
         padding: 18px;
         transition: all 0.3s ease-in-out;
-        z-index: 999; /* Place above background */
+        z-index: 99999999999;
+        /* z-index: 999;  */
         background-color: rgb(53, 69, 215);
         overflow-y: auto;
     }
@@ -454,6 +455,7 @@ html{
         right: -400px; /* Initially hidden */
         width: 300px;
         padding: 15px;
+        z-index: 9999999999999;
         overflow-y: auto;
     }
     .hero-container{
