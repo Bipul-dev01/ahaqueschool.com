@@ -495,7 +495,7 @@ section{
   background-position: center;
   background-repeat: repeat;
   background-size: cover; 
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 100px;
 }
 
