@@ -1089,12 +1089,12 @@ section{
 }
 .transportImage img{
   position: relative;
-  margin-top: 40px;
-  margin-bottom: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   width: 650px;
-  height: 300px;
+  height: 470px;
 }
 .transport-section {
   margin: 0;
@@ -1137,10 +1137,10 @@ section{
 }
 @media (max-width:460px){
   .transportImage img{
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 250px;
-    height: 100px;
+    height: 170px;
   }
 
   .transport-section {
